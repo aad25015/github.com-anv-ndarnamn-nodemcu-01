@@ -6,22 +6,11 @@ NodeMCU använder ESP8266
 För att få NodeMCU(ESP8266) inbyggda LED lampan att blinka måste Ardunios två basfunktioner användas. 
 * Setup ()
   Vilka portar som ska användas och hur
-
-/ the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
   
 * Loop ()
 Instruktioner som upprepas om och om
 
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
-}
+![Code](https://github.com/user-attachments/assets/bbb809b4-ac21-4b59-8145-5178c8310077)
 
 
 ## Steg för steg 
@@ -33,7 +22,7 @@ void loop() {
 * Välj **Port** i ´Tools´ --> ´Port´
 * Tryck ´Upplod´
 
-![Dator](Dator.jpeg) 
+![Dator](https://github.com/user-attachments/assets/22bb3cde-475b-47a8-ab35-a5594d6aaac8)
 
 
 
