@@ -1,6 +1,12 @@
 # Nodemcu-01
 # Microprocessor
-NodeMCU använder ESP8266, en mikroprocessor är en minidator som kan programmeras genom Ardunio IDE att styra exempel lampor och sensorer. 
+NodeMCU bygger på ESP8266. En mikroprocessor är en minidator som kan programmeras genom programmet Ardunio IDE för styra exempelvis lampor och sensorer. 
+[
+](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.se%2FAZDelivery-NodeMCU-Amica-V2-USB-C-anslutning%2Fdp%2FB0D8WCJH9B&psig=AOvVaw3CJ9W0DqJqUukIOYp1eyD7&ust=1764678455613000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNj30dexnJEDFQAAAAAdAAAAABAM)<img width="1000" height="793" alt="image" src="https://github.com/user-attachments/assets/f2af3925-0320-4b1e-9bd2-f68ac328f4bb" />
+
+# Portinitialisering 
+Innebär att man förbreder en port på en mikroprocessor genom att bestäma om den ska fungera som ingån eller utgång. ställa in innan porten används. 
+
 # Två bassfunktioner i Ardunio
 För att få NodeMCU(ESP8266) inbyggda LED lampan att blinka måste Ardunios två basfunktioner användas. 
 * Setup ()
