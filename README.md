@@ -1,4 +1,4 @@
-[# Nodemcu-01
+
 # introduktion 
 I denna redovisning ska jag presentera NodeMCU-01 som bygger på ESP8266 om vad en mikroprocessor är, hur man programmerar den i Arduino IDE och hur den kan styra exempelvis LED-lampor och sensorer.
 
@@ -15,11 +15,11 @@ Innebär att man förbreder en port på en mikroprocessor genom att bestäma om 
 # Två bassfunktioner i Ardunio
 För att få NodeMCU(ESP8266) inbyggda LED lampan att blinka måste Ardunios två basfunktioner användas. 
 ```cpp
-*  Setup ()
+setup()
 ```
-  Vilka portar som ska användas och hur
+Körs engång 
   ```cpp
-* Loop ()
+Loop()
 ```
 Instruktioner som upprepas om och om igen
 
@@ -27,18 +27,41 @@ Instruktioner som upprepas om och om igen
 
 ![Code](https://github.com/user-attachments/assets/bbb809b4-ac21-4b59-8145-5178c8310077)
 
-```cpp
 
+/*
+  ESP8266 Blink by Simon Peter
+  Blink the blue LED on the ESP-01 module
+  This example code is in the public domain
+
+  The blue LED on the ESP-01 module is connected to GPIO1
+  (which is also the TXD pin; so we cannot use Serial.print() at the same time)
+
+  Note that this sketch uses LED_BUILTIN to find the pin with the internal LED
+*/
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);  // Initialize the LED_BUILTIN pin as an output
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, LOW);  // Turn the LED on (Note that LOW is the voltage level
+  // but actually the LED is on; this is because
+  // it is active low on the ESP-01)
+  delay(1000);                      // Wait for a second
+  digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off by making the voltage HIGH
+  delay(2000);                      // Wait for two seconds (to demonstrate the active low LED)
+} 
 
 
 ## Steg för steg 
-* Installera **Ardunio IDE**
-* `File` -> `Exempels` -> `0.1 Basics` -> `Blink`
+Installera **Ardunio IDE**
+ `File` -> `Exempels` -> `0.1 Basics` -> `Blink`
   
-* Koppla med USB-kabel
-* `Tools` -> `Board` -> `Generic ESP8266 Module`
-* Välj **Port** i `Tools` -> `Port`
-* Tryck `Upplod`
+Koppla med USB-kabel
+`Tools` -> `Board` -> `Generic ESP8266 Module`
+Välj **Port** i `Tools` -> `Port`
+Tryck `Upplod`
 
 ![Dator](https://github.com/user-attachments/assets/22bb3cde-475b-47a8-ab35-a5594d6aaac8)
 
