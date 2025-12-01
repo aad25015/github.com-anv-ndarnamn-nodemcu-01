@@ -30,11 +30,11 @@ Instruktioner som upprepas om och om igen
 
 ## Steg för steg 
 * Installera **Ardunio IDE**
-* `File` - `Exempels` - `0.1 Basics` - `Blink`
+* `File` -> `Exempels` -> `0.1 Basics` -> `Blink`
   
 * Koppla med USB-kabel
-* `Tools` - `Board` - `Generic ESP8266 Module`
-* Välj **Port** i `Tools` - `Port`
+* `Tools` -> `Board` -> `Generic ESP8266 Module`
+* Välj **Port** i `Tools` -> `Port`
 * Tryck `Upplod`
 
 ![Dator](https://github.com/user-attachments/assets/22bb3cde-475b-47a8-ab35-a5594d6aaac8)
