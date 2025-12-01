@@ -1,7 +1,6 @@
 # Nodemcu-01
 # Microprocessor
-NodeMCU använder ESP8266
-En mikroprocessor är en minidator som kan programmeras genom Ardunio IDE att styra exempel lampor och sensorer. 
+NodeMCU använder ESP8266, en mikroprocessor är en minidator som kan programmeras genom Ardunio IDE att styra exempel lampor och sensorer. 
 # Två bassfunktioner i Ardunio
 För att få NodeMCU(ESP8266) inbyggda LED lampan att blinka måste Ardunios två basfunktioner användas. 
 * Setup ()
