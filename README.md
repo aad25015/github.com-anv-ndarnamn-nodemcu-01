@@ -15,7 +15,7 @@ Instruktioner som upprepas om och om
 
 ## Steg för steg 
 * Installera **Ardunio IDE**
-* ´File´ --> ´Exempels´ - ´0.1 Basics´ - ´Blink´
+* ´File´ --> ´Exempels´ - ´ 0.1 Basics ´ - ´Blink´
   
 * Koppla med USB-kabel
 * ´Tools´ - ´Board´ - ´Generic ESP8266 Module´
