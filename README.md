@@ -9,11 +9,16 @@ Innebär att man förbreder en port på en mikroprocessor genom att bestäma om 
 
 # Två bassfunktioner i Ardunio
 För att få NodeMCU(ESP8266) inbyggda LED lampan att blinka måste Ardunios två basfunktioner användas. 
-* Setup ()
+```cpp
+*  Setup ()
+```
   Vilka portar som ska användas och hur
-  
+  ```cpp
 * Loop ()
-Instruktioner som upprepas om och om
+```
+Instruktioner som upprepas om och om igen
+
+
 
 ![Code](https://github.com/user-attachments/assets/bbb809b4-ac21-4b59-8145-5178c8310077)
 
