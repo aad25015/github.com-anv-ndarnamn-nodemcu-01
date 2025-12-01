@@ -27,6 +27,9 @@ Instruktioner som upprepas om och om igen
 
 ![Code](https://github.com/user-attachments/assets/bbb809b4-ac21-4b59-8145-5178c8310077)
 
+```cpp
+
+
 
 ## Steg för steg 
 * Installera **Ardunio IDE**
