@@ -17,7 +17,7 @@ För att få NodeMCU(ESP8266) inbyggda LED lampan att blinka måste Ardunios tv�
 ```cpp
 setup()
 ```
-Körs engång 
+Vid start eller reset av programmet körs denna kod
   ```cpp
 Loop()
 ```
@@ -27,7 +27,7 @@ Instruktioner som upprepas om och om igen
 
 ![Code](https://github.com/user-attachments/assets/bbb809b4-ac21-4b59-8145-5178c8310077)
 
-
+```c
 /*
   ESP8266 Blink by Simon Peter
   Blink the blue LED on the ESP-01 module
@@ -52,7 +52,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off by making the voltage HIGH
   delay(2000);                      // Wait for two seconds (to demonstrate the active low LED)
 } 
-
+```
 
 ## Steg för steg 
 Installera **Ardunio IDE**
